@@ -5,11 +5,11 @@
       "headers": [
         {
           "key": "X-Frame-Options",
-          "value": "ALLOW-FROM https://your-allowed-origin.com"
+          "value": "ALLOWALL"
         },
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors https://your-allowed-origin.com"
+          "value": "frame-ancestors *"
         }
       ]
     }
